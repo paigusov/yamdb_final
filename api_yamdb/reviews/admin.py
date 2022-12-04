@@ -1,7 +1,7 @@
 from django.contrib import admin
 from django.contrib.auth import get_user_model
 
-from reviews.models import Category, Comment, Genre, GenreTitle, Review, Title
+from .models import Category, Comment, Genre, GenreTitle, Review, Title
 
 User = get_user_model()
 
