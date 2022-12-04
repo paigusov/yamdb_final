@@ -5,15 +5,8 @@ from django.conf import settings
 from django.core.management.base import BaseCommand
 from django.db.utils import IntegrityError
 from progress.bar import Bar
-from reviews.models import (
-    Category,
-    Comment,
-    Genre,
-    Genre_Title,
-    Review,
-    Title,
-    User,
-)
+from reviews.models import (Category, Comment, Genre, Genre_Title, Review,
+                            Title, User)
 
 FILE_MODEL_MAPPING = (
     ('users.csv', User),
