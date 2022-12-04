@@ -1,7 +1,7 @@
 from django.contrib.auth import get_user_model
 from django.db import models
 from django.core.validators import MinValueValidator, MaxValueValidator
-from reviews.validators import NotLaterThisYearValidator
+from reviews.validators import notlaterthisyearvalidatetor
 
 User = get_user_model()
 
@@ -43,7 +43,7 @@ class Title(models.Model):
     year = models.IntegerField(
         verbose_name='Год выхода',
         db_index=True,
-        validators=(NotLaterThisYearValidator,),
+        validators=(notlaterthisyearvalidatetor,),
     )
     description = models.TextField(
         null=True, blank=True, verbose_name='Описание'
