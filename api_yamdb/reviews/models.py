@@ -1,6 +1,7 @@
 from django.contrib.auth import get_user_model
+from django.core.validators import MaxValueValidator, MinValueValidator
 from django.db import models
-from django.core.validators import MinValueValidator, MaxValueValidator
+
 from reviews.validators import notlaterthisyearvalidatetor
 
 User = get_user_model()
@@ -68,8 +69,8 @@ class Title(models.Model):
         return self.name
 
 
-class Genre_Title(models.Model):
-    """Модель таблицы Genre-Title."""
+class GenreTitle(models.Model):
+    """Модель таблицы GenreTitle."""
 
     title = models.ForeignKey(
         Title, on_delete=models.CASCADE, verbose_name='Произведение'
