@@ -1,7 +1,5 @@
 # API для проекта YaMDB в контейнере Docker
 
-[![API for YaMDB project workflow](https://github.com/bondarval/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg?branch=main)](https://github.com/bondarval/yamdb_final/actions/workflows/yamdb_workflow.yml)
-
 [![Python](https://img.shields.io/badge/-Python-464646?style=flat-square&logo=Python)](https://www.python.org/)
 [![Nginx](https://img.shields.io/badge/-NGINX-464646?style=flat-square&logo=NGINX)](https://nginx.org/ru/)
 [![gunicorn](https://img.shields.io/badge/-gunicorn-464646?style=flat-square&logo=gunicorn)](https://gunicorn.org/)
@@ -27,7 +25,7 @@
 
 ### Ссылка на сайт
 
-Проект был запущен и доступен по [адресу](http://bondaryatube.ddns.net).
+Проект был запущен и доступен по [адресу](51.250.96.207).
 
 Может быть недоступно в связи с прекращением обслуживания.
 
@@ -62,7 +60,7 @@
 - Склонировать репозиторий
 
 ```bash
-git clone https://github.com/bondarval/yamdb_final.git
+git clone https://github.com/paigusov/yamdb_final.git
 ```
 
 - Выполнить вход на удаленный сервер
