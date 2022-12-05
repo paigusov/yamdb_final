@@ -14,7 +14,7 @@ services:
     env_file:
       - ./.env
   web:
-    image: paigusov/yamdb_final:latest
+    image: paigusov/api_yamdb:latest
     restart: always
     volumes:
       - static_value:/app/static/
